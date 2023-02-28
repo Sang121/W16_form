@@ -58,7 +58,7 @@ export default function App() {
             },
             max: {
               value: 20,
-              message: 'min length is 20'
+              message: 'max length is 20'
             },
           })}
           type="password"
@@ -74,7 +74,7 @@ export default function App() {
             },
             max: {
               value: 20,
-              message: 'min length is 20'
+              message: 'max length is 20'
             },
             validate: (val) => {
               if (watch('password') != val) {
